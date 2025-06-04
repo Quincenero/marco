@@ -27,8 +27,38 @@
     }
     ul{
         list-style: none;
-    }
-    
+    } 
 }
 
+@media (max-width: 769px){
+    
+    .contact-container {
+        background-position:center;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.1rem;
+    }
+    form{
+        max-width: 100%;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px auto;
+        padding: 15px;
+    
+    }
+}
 
